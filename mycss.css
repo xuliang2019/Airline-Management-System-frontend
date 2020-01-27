@@ -1,9 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:700|Open+Sans:400&display=swap');
+body {
+  box-sizing: border-box;
+  color: #535353;
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #4b2e83;
+  padding: .75rem;
+}
 
-	body{
-			font-family: 'Poppins', sans-serif;
+div a, li a {
+  color: white;
+  text-decoration: none;
+}
+nav>li {
+  display: inline;
+  padding: 1rem;
+}
+nav ul {
+  margin: 0px;
+  padding-top: .5rem;
+  display: inline-block;
+}
+li a:hover, div a:hover {
+  color: #b7a57a;
+  text-decoration: none;
+}
+div>img {
+  height: 250px;
+  width: 300px;
+}
 
-		}
+.bg-color {
+  padding: 10rem;
+  background-color: white;
+  text-align: center;
+}
 
+.logo {
+  padding: 0 1em;
+  background-image: url("../img/ischool-symbol-white.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
 
 
 .carousel-caption {
@@ -11,7 +55,7 @@
     bottom: auto;
     text-size:24px;
 	}
-	
+
 	.carousel-caption h2 {
     font-size: 9rem;
     margin-bottom: 0;
@@ -19,7 +63,7 @@
     font-weight: 300;
 }
 
-	
+
 	.carousel-caption p {
 	 color: rgba(255, 255, 255, 0.65);
     text-transform: uppercase;
@@ -35,8 +79,8 @@
 
 	}
 
- 	
-	
+
+
 
 
 
@@ -53,7 +97,7 @@
 				display: inline-block;
 				padding: 0 2rem 0 0;
 				font-size: 36px;
-			}	
+			}
 
 
 
@@ -64,14 +108,14 @@
 	.background-wrapper {
 			background-color: #000;
 			color: #bfbfbf;
-			
+
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
 			position: relative;
 		}
 
-	
+
 
 
 
@@ -86,7 +130,7 @@
 
     .panel-transparent .panel-heading{
         background: rgba(122, 130, 136, 0.6)!important;
-        
+
     }
 
     .panel-transparent .panel-body{
